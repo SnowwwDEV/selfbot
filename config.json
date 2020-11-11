@@ -1,0 +1,19 @@
+{
+      "token": "TOKEN",
+      "ownerId": ["ID1","ID2"],
+      "statutDeJeuParDefaut": "STATUT",
+      "typeEnvoieMessage": "TYPE D'ENVOIE",
+      "easyeventFinancement": "ECRIVEZ QUELQUE CHOSE ICI",
+      "prefix": "_",
+      "spamfarm": "nonauto",
+
+
+      "//token": "Mettez votre token a la place de 'TOKEN' | Pour obtenir votre token :   https://www.youtube.com/watch?v=HT1GyN6fJ5A",
+      "//ownerId": ["Mettez l'id de vos comptes à la place de 'ID1' et 'ID2'","Si vous n'en n'avez qu'un mettez ne touchez pas à 'ID2'","Pour obtenir votre id : https://support.discord.com/hc/fr/articles/206346498-O%C3%B9-trouver-l-ID-de-mon-compte-utilisateur-serveur-message-"],
+      "//statutDeJeuParDefaut": "Mettez à la place de 'STATUT' le statut de jeu que votre selfbot aura",
+      "//typeEnvoieMessage": "Au lieu de 'TYPE D'ENVOIE', Mettez sois 'console' sois 'salon'.",
+      "//easyeventFinancement": "Au lieu de 'ECRIVEZ QUELQUE CHOSE ICI', Mettez 'yes' pour activer le financement des évents EasyEvent ou 'no' pour ne pas l'activer, Ceci permet de donner en peu de l'argent récolté dans votre spamfarm avec ce selfbot à Johan pour financer les évents d'EasyEvent.",
+      "//prefix": "Veuillez mettre au lieu de '_' (Prefix par défaut) le prefix de votre choix, Il ne doit contenir aucun espace.",
+      "//spamfarm": "Pour activer le spamfarm automatique, Mettez 'auto' et pour le désactiver mettez 'nonauto'."
+}
+
