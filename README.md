@@ -14,3 +14,8 @@
   - eval : Evalue du code
   - spamfarm : Permet de spamfarmer (1 message toutes les 5 secondes
   - spam : Permet de spammer pas trop vite (1 message toutes les 0.6 secondes)
+
+
+# Installez le selfbot
+
+Téléchargez "config.json", "index.js", "package.json" ainsi que "litmoi.html" sur votre appareil puis suivez les instructions qui sont dans le fichier "litmoi.html".
