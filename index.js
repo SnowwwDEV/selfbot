@@ -28,12 +28,12 @@ bot.on('ready', async () => {
     bot.user.setActivity(config.statutDeJeuParDefaut, { type: "PLAYING" }); // Statut de jeu 
     console.log (yellow("[-----------------------------------------------]")); // Séparateur
 
-    // Vérification de la version du bot depuis Virus98 (Un de mes sites en mode faux virus car ce selfbot n'a pas de site donc j'en utilise un autre)
-    const derniereVersion = await fetch ("https://virus98.glitch.me/selfbot.json")
+    // Vérification de la version du bot
+    const derniereVersion = await fetch ("https://raw.githubusercontent.com/anticoupable/selfbot/main/version.json")
     .then (res => res.json())
     .then (json => json.version);
     
-    const dernierCanal = await fetch ("https://virus98.glitch.me/selfbot.json")
+    const dernierCanal = await fetch ("https://raw.githubusercontent.com/anticoupable/selfbot/main/version.json")
     .then (res => res.json())
     .then (json => json.canal);
    
