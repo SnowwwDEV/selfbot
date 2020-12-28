@@ -24,16 +24,16 @@ process.on('unhandledRejection', error => {
 });
 
 bot.on('ready', async () => {
-    console.log(green("Selfbot démarré (En tant que ") + cyan(bot.user.tag) + green(")") + green("\nVersion : ") + cyan(version) + green(" (") + cyan(canal) + green(") ") + green("\nCrée par ") + cyan("Johan#8021") + green(" (") + cyan("https://johan-perso.carrd.co") + green(")"));
+    console.log(green("Selfbot démarré (En tant que ") + cyan(bot.user.tag) + green(")") + green("\nVersion : ") + cyan(version) + green(" (") + cyan(canal) + green(") ") + green("\nCrée par ") + cyan("Johan#8021") + green(" (") + cyan("https://johan-perso.tk") + green(")"));
     bot.user.setActivity(config.statutDeJeuParDefaut, { type: "PLAYING" }); // Statut de jeu
     console.log (yellow("[-----------------------------------------------]")); // Séparateur
 
     // Vérification de la version du bot
-    const derniereVersion = await fetch ("https://raw.githubusercontent.com/anticoupable/selfbot/main/version.json")
+    const derniereVersion = await fetch ("https://raw.githubusercontent.com/johan-perso/selfbot/main/version.json")
     .then (res => res.json())
     .then (json => json.version);
 
-    const dernierCanal = await fetch ("https://raw.githubusercontent.com/anticoupable/selfbot/main/version.json")
+    const dernierCanal = await fetch ("https://raw.githubusercontent.com/johan-perso/selfbot/main/version.json")
     .then (res => res.json())
     .then (json => json.canal);
 
