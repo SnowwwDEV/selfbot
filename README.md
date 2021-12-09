@@ -1,3 +1,7 @@
+# Arrêt du selfbot
+
+Ce selfbot n'est désormais plus supporté, il risque quand même de ptet fonctionner. Cependant, je ne donne plus aucun support à celui-ci. (et psshh si tu veux un selfbot multi-compte pour spammer, https://selfbot.johanstickman.com)
+
 # Information importante
 
 **Les selfbot sont contre les TOS de Discord, Je ne suis responsable de votre utilisation de ce dernier.**
